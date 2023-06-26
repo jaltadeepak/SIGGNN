@@ -1,0 +1,96 @@
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* font-weight: 400; */
+}
+
+.page1 {
+    z-index: 1;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    background-color: rgb(201, 201, 201);
+}
+
+.page1 img {
+    position: absolute;
+    margin: 0 1.25rem 0 1.25rem;
+    height: 50px;
+    width: auto;
+}
+
+.nav {
+    padding: 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 1.6rem;
+}
+
+.nav a {
+    text-decoration: none;
+    border-radius: 0.25rem;
+    border-style: none;
+    font-weight: 500;
+    padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+}
+
+#workwithus {
+    background-color: #A8DADC;
+    color: black;
+
+}
+
+#bookus {
+    background-color: #457B9D;
+    color: white;
+
+}
+
+#contactus {
+    background-color: #1D3557;
+    color: white;
+
+}
+
+.buttons{
+    transition: opacity 0.5s ease-in-out;
+}
+
+.buttons:hover{
+    opacity: 0.75;
+}
+
+.maincontent {
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    position: relative;
+}
+
+#page2 {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.logo {
+    position: block;
+    text-align: center;
+    padding: 30vh 0 0 0;
+}
+
+.quote {
+    text-align: center;
+    padding: 2rem;
+    font-weight: 600;
+    opacity: 0.65;
+}
+
+#body_page {
+    height: 100vh;
+    scroll-snap-align: start;
+}
