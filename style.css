@@ -4,6 +4,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #f3f1f2;
 }
 
 .glowing {
@@ -218,12 +219,13 @@ p{
     transform: translateY(-0.5em);
   }
 }
-
-.logo {
-    z-index: 0;
-    position: block;
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 50%;
     text-align: center;
-    transform: scale(1.2);
 }
 
 .quote {
